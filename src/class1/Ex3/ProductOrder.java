@@ -1,4 +1,4 @@
-package class1.Ex2;
+package class1.Ex3;
 
 // 사용자 정의 타입 설계도
 public class ProductOrder {
