@@ -5,7 +5,7 @@ public class MusicPlayerMain2 {
 
     public static void main(String[] args) {
         // 객체 생성
-        MusicplayerData data = new MusicplayerData();
+        MusicPlayerData data = new MusicPlayerData();
         data.isOn = true;
 
         //  음악 플레이어 켜기
