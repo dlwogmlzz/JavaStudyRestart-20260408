@@ -1,13 +1,13 @@
 package review.ex;
 
-public class ProductorderMain {
+public class ProductOrderMain {
     public static void main(String[] args) {
         // 1. 여러 상품의 주문 정보를 담는 배열 생성
-        ProductOrder[] orders = new ProductOrder[2];
+        ProductOrder[] orders = new ProductOrder[3];
         // 2. 상품 주문 정보를 'ProductOrder' 타입의 변수로 받아 저장
         ProductOrder order1 = new ProductOrder();
         order1.productName = "삼겹살";
-        order1.price = 800;
+        order1.price = 1000;
         order1.quantity = 2;
         orders[0] = order1;
 
@@ -16,6 +16,12 @@ public class ProductorderMain {
         order2.price = 300;
         order2.quantity = 3;
         orders[1] = order2;
+
+        ProductOrder order3 = new ProductOrder();
+        order3.productName = "쌈장";
+        order3.price = 600;
+        order3.quantity = 1;
+        orders[2] = order3;
 
         // 총가격
         int totalAmount = 0;
