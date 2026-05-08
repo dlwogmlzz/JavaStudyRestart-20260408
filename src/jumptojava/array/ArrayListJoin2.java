@@ -1,4 +1,4 @@
-package jumptojava;
+package jumptojava.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;

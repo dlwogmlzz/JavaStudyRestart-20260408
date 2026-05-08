@@ -1,4 +1,4 @@
-package jumptojava;
+package jumptojava.array;
 
 public class ArrayListJoin3 {
     public static void main(String[] args) {
