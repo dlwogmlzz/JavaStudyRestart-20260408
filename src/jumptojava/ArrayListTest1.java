@@ -1,0 +1,10 @@
+package jumptojava;
+
+public class ArrayListTest1 {
+    public static void main(String[] args) {
+        String[] weeks = {"月", "火", "水", "木", "金", "土", "日"};
+        for(int i = 0; i < weeks.length; i++) {
+            System.out.print(weeks[i] + " ");
+        }
+    }
+}
