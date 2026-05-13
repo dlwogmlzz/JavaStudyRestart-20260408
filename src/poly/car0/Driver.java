@@ -2,7 +2,10 @@ package poly.car0;
 
 public class Driver {
 
+    // Driver는 K3Car를 의존한다.라고 표현..
     private K3Car k3Car;    // 기본이 null을 가진다.
+
+    // Driver는 Model3Car를 의존한다.라고 표현..
     // K3Car와 Model3Car둘다 운전할수 있게 할려면...
     private Model3Car model3Car;    // model3Car추가..
 
